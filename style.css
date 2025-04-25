@@ -1,0 +1,66 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Calibri, sans-serif;
+}
+.c_logo{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+.c_pesquisa{
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.c_line{
+    margin: 10px auto;
+    width: 90%;
+    height: 2px;
+    background-color: black;
+}
+input{
+    border: none;
+}
+input::placeholder{
+    font-size: 15px}
+.c_2, .c_1{
+    padding-top: 8px;
+}
+.c-produto{
+    padding-top: 8px;
+    padding-left: 18px;
+    font-size: 12px;
+    
+    
+}
+.c-produto div{
+margin-top: 25px;
+}
+.c-produto h1{
+    font-weight: lighter;
+}
+.c-valor{
+    padding-top: 30px;
+    display: inline;
+}
+.c-caracteristicas{
+    padding-left: 18px;
+    font-weight: lighter;
+}
+.c-divgrande{
+    display: inline;
+}
+.c-svg{
+    display: inline;
+    padding-left: 210px;
+   
+}
+.c-svg h1{
+    display: inline;
+}
