@@ -1,0 +1,206 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Calibri, sans-serif;
+}
+.c_logo{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+.c_pesquisa{
+    display: flex;
+    flex-direction: row;
+    gap: 140px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.c_line{
+    margin: 10px auto;
+    width: 90%;
+    height: 2px;
+    background-color: black;
+}
+input{
+    border: none;
+}
+input::placeholder{
+    font-size: 15px}
+.c_2, .c_1{
+    padding-top: 8px;
+}
+.c-produto{
+    padding-top: 8px;
+    padding-left: 18px;
+    font-size: 12px;
+    
+    
+}
+.c-produto div{
+margin-top: 25px;
+}
+.c-produto h1{
+    font-weight: bold;
+}
+.c-valor{
+    padding-top: 30px;
+    display: inline;
+    font-weight: bold;
+}
+.c-caracteristicas{
+    padding-left: 18px;
+    
+}
+
+.c-tamanho {
+    margin-top: 20px;
+}
+.c-tamanho::after{
+    content: "";
+      display: block;
+      width: 320px; /* linha maior que o texto */
+      height: 2px;
+      background-color: rgba(0, 0, 0, 0.344);
+      margin-top: 4px;
+}
+.c-tamanho h1{
+    font-weight: lighter; 
+    display: inline;
+    
+}
+.c-seta{
+    display: inline;
+    margin-left: 270px;
+}
+.c-seta ::after{
+    content: "";
+    display: block;
+    width: 320px; /* linha maior que o texto */
+    height: 2px;
+    background-color: rgba(0, 0, 0, 0.344);
+    margin-top: 4px;
+}
+
+
+.c-cores{
+    font-weight: lighter;
+    margin-top: 40px;
+    display: inline-block;
+    white-space: nowrap; 
+    
+    
+}
+.c-cores h1{
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 15px;
+}
+
+
+.c-divgrande{
+    display: inline;
+}
+.c-svg{
+    display: inline;
+    padding-left: 175px;
+   
+}
+.c-svg h1{
+    display: inline;
+    font-weight: lighter;
+}
+
+.c-reviews{
+    margin-top: 20px;
+    text-decoration: underline;
+    margin-left: 190px;
+}
+.c-container {
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    gap: 20px; 
+}
+
+
+
+  .c-quadrados {
+    display: inline-block;
+    display: flex;
+    gap: 10px;
+    vertical-align: middle;
+  }
+
+  .c-quadrado1{
+    width: 50px;
+    height: 50px;
+    background-color: #EDCBB9;
+    border-radius: 4px;
+  }
+  .c-quadrado2{
+    width: 50px;
+    height: 50px;
+    background-color: #909090;
+    border-radius: 4px;
+  }
+  .c-quadrado3{
+    width: 50px;
+    height: 50px;
+    background-color: #B4C4FF;
+    border-radius: 4px;
+  }
+  .c-quantidade {
+    display: flex;
+    align-items: center;
+    gap: 16px; 
+    justify-content: center;
+    margin-top: 50px;
+  }
+
+  .c-botao-circulo {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    background-color: #e5dfdfd4;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+
+  .c-numero {
+    font-size: 20px;
+    font-weight: bold;
+    min-width: 20px;
+    text-align: center;
+  }
+  .c-botoes {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 100%;
+    max-width: 360px; 
+    padding: 16px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    margin-bottom: 12px;
+    cursor: pointer;
+   
+  }
+  .c-botaoverde{
+    background-color: #4cd964;
+    color: white;
+  }
+  .c-botaopreto{
+    background-color: #1c1c1c;
+    color: white;
+  }
